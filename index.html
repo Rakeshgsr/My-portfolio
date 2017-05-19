@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <title>Rakesh-Portfolio</title>
-    	<meta name="description" content="">
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- 
 Flex Template 
@@ -308,7 +308,7 @@ http://www.templatemo.com/tm-406-flex
                     <div class="heading-section col-md-12 text-center">
                   
                         <div class="skills-heading">
-                            <h3 class="skills-title"<h3>Skills</h3>
+                            <h3 class="skills-title"<h2><u><strong>Skills</strong></u></h2></h3>
                             <p class="small-text">Reason for creative works</p>
                         </div>
                     </div> <!-- /.col-md-12 -->
@@ -316,8 +316,8 @@ http://www.templatemo.com/tm-406-flex
                 <div class="row">
                     <div class="col-md-8 col-sm-6">
                         <p>Since my start in web development in 2016, I've a skill set that allows me to serve clients in a wide range of domains.And also developed many static and ecommerce websites in wordpress, HTML and Magento.<br><br>
-						Regardless of what some may think, software testers need strong analytical and problem-solving skills. Without such skills they will not succeed and projects may fail.I began my career as software test engineer and handled many projects in both Manual & Automation testing.<!-- spacing for mobile viewing --><br><br>
-						</p>
+                        Regardless of what some may think, software testers need strong analytical and problem-solving skills. Without such skills they will not succeed and projects may fail.I began my career as software test engineer and handled many projects in both Manual & Automation testing.<!-- spacing for mobile viewing --><br><br>
+                        </p>
                     </div> <!-- /.col-md-8 -->
                     <div class="col-md-4 col-sm-6">
                         <ul class="progess-bars">
@@ -346,20 +346,21 @@ http://www.templatemo.com/tm-406-flex
                 </div> <!-- /.row -->
             </div> <!-- /.container -->
         </div> <!-- /#our-team -->
-
         <div class="content-section" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="heading-section col-md-12 text-center">
                         <h2>Contact</h2>
-                        <p>Send me a message </p>
+                        <p>Send a message to us</p>
                     </div> <!-- /.heading-section -->
                 </div> <!-- /.row -->
                 <div class="row">
                     <div class="col-md-12">
-                       <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCHmnEzDylpt7Gq0CkoSXZmV3eqF1Y6s7Q&callback=initMap'></script><div style='overflow:hidden;height:440px;width:1140px;'><div id='gmap_canvas' style='height:440px;width:1140px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://promocode.com.ph/">See the latest discount codes from some online shop in the Philippines</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(13.1758491,79.61090489999992),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(13.1758491,79.61090489999992)});infowindow = new google.maps.InfoWindow({content:'<strong>Rakesh</strong><br>Tiruthani,India<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script><!-- /.googlemap-wrapper -->
+                       <div class="googlemap-wrapper">
+                            <div id="map_canvas" class="map-canvas"></div>
+                        </div> <!-- /.googlemap-wrapper -->
                     </div> <!-- /.col-md-12 -->
-                </div><br><br> <!-- /.row -->
+                </div> <!-- /.row -->
                 <div class="row">
                     <div class="col-md-7 col-sm-6">
                         <p>Nice to meet you! Go on an adventure with us. Together we will find a creative solution.<br><br>
@@ -400,7 +401,7 @@ http://www.templatemo.com/tm-406-flex
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-xs-12 text-left">
-                        <span>Copyright &copy; 2014 Company Name</span>
+                        <span>Copyright &copy; 2017 <font color="red">Rakesh G S</font></span>
                   </div> <!-- /.text-center -->
                     <div class="col-md-4 hidden-xs text-right">
                         <a href="#top" id="go-top">Back to top</a>
@@ -424,7 +425,7 @@ http://www.templatemo.com/tm-406-flex
             jQuery(function($){
                 $('#map_canvas').gmap3({
                     marker:{
-                        address: '37.769725, -122.462154' 
+                        address: '13.1758491, 79.61090489999992' 
                     },
                         map:{
                         options:{
